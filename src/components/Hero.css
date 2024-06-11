@@ -1,0 +1,178 @@
+.Hero{
+display: flex;
+justify-content: space-between;
+padding: 100px 1% 0 1%;
+}
+.Hero .Text .jopp{
+margin-left:30%;
+}
+.Hero .Text h3{
+font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.Hero .Text h2{
+font-family: Poppins;
+font-size: 32px;
+font-weight: 600;
+line-height: 48px;
+letter-spacing: 0.03em;
+text-align: left;
+color: seagreen;
+}
+.Hero .Text h1{
+font-family: Poppins;
+font-size: 100px;
+font-weight: 700;
+line-height: 120px;
+letter-spacing: 0.03em;
+text-align: left;
+}
+.Hero .Text div{
+width: 698px;
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 0.03em;
+margin-top: 28px;
+margin-bottom: 22px;    
+}
+.Hero .Text button{
+width: 188px;
+height: 52px;    
+font-family: Poppins;
+font-size: 21px;
+font-weight: 400;
+cursor: pointer;
+border: none;
+outline: none;
+border-radius: 5px;   
+color: rgba(255, 255, 255, 1);
+background:seagreen;
+}
+.Hero .profile .Cardimg{
+width: 538px;
+height: 538px;
+border-radius: 50%;
+border: 10px solid whitesmoke;
+outline: 1px solid seagreen;
+
+}
+@media screen  and (max-width:1334px){
+    .Hero .Text .jopp{
+        margin-left: 25%;
+    }
+    .Hero .profile .Cardimg{
+        width: 480px;
+height: 480px;
+        }
+    .Hero .Text h3{
+        font-size: 22px;
+        }
+        .Hero .Text h2{
+        font-size: 27px;
+        }
+        .Hero .Text h1{
+        font-size: 80px;
+        }
+        .Hero .Text div{
+            width: 560px;
+            font-size: 17px;
+            margin-top: 22px;
+            margin-bottom: 18px;
+        }
+        .Hero{
+            padding: 90px 1% 0 1%;
+        }
+}
+@media screen  and (max-width:1160px){
+        .Hero .Text h1{
+        font-size: 65px;
+        line-height: 80px;
+        }
+        .Hero .Text div{
+            width: 450px;
+            font-size: 17px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 25%;
+        }
+        .Hero .profile .Cardimg{
+            width: 440px;
+        height: 440px;
+        }
+        .Hero{
+            padding: 80px 1% 0 1%;
+        }
+}
+@media screen  and (max-width:960px){
+    .Hero .Text h3{
+        font-size: 20px;
+        }
+        .Hero .Text h2{
+        font-size: 25px;
+        }
+        .Hero .Text h1{
+        font-size: 55px;
+        line-height: 70px;
+        }
+        .Hero .Text div{
+            width: 400px;
+            font-size: 15px;
+            margin-top: 12px;
+            margin-bottom: 14px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 17%;
+        }
+        .Hero .Text button{
+            width: 160px;
+            height: 40px;    
+            font-size: 19px;
+            }
+            .Hero .profile .Cardimg{
+                width: 390px;
+            height: 390px;
+            }
+           
+            .Hero{
+                padding: 70px 1% 0 1%;
+                flex-direction: column;
+                align-items: center;
+                gap: 40px;
+            }
+}
+@media screen  and (max-width:411px){
+    .Hero .profile .Cardimg{
+        width: 290px;
+    height: 290px;
+    }
+    .Hero .Text h3{
+        font-size: 16px;
+        }
+        .Hero .Text h2{
+        font-size: 20px;
+        }
+        .Hero .Text h1{
+        font-size: 40px;
+        line-height: 55px;
+        }
+        .Hero .Text div{
+            width: 287px;
+            font-size: 14px;
+            margin-top: 12px;
+            margin-bottom: 14px;
+        }
+        .Hero .Text .jopp{
+            margin-left : 17%;
+        }
+        .Hero .Text button{
+            width: 110px;
+            height: 38px;    
+            font-size: 17px;
+            }
+}

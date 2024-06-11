@@ -1,0 +1,145 @@
+.Projects{
+    margin: 70px 0;
+}
+.Projects h1{
+font-family: Poppins;
+font-size: 65px;
+font-weight: 600;
+margin-bottom: 22px;
+letter-spacing: 0.03em;
+text-align: center;
+}
+.Projects h2{
+width: max-content;
+margin: auto;
+font-family: Poppins;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 0.03em;
+text-align: center;
+}
+
+.Projects .containerprojects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 55px;
+    padding: 0 20px;
+}
+.Projects .containerprojects .cardimgproject1{
+width: 400px;
+height: 489px;
+border-radius: 12px;
+position: relative;
+background: whitesmoke;
+border: 2px solid rgba(46, 139, 86, 0.503);
+box-shadow: 6px 11px 5px rgba(0,0,0,0.25);
+cursor: pointer;
+}
+.Projects .containerprojects .cardimgproject1 .imgwp1{
+position: absolute;
+width: 274px;
+height: 480px;
+top: 0;
+left: 60%;
+transform: translate(-50%);
+}
+.Projects .containerprojects .cardimgproject1 .imgwp2{
+position: absolute;
+width: 274px;
+height: 405.54px;
+top: 76px;
+left: 40%;
+transform: translate(-50%);
+z-index: 2;
+}
+.Projects .containerprojects .Web_Design{
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+line-height: 28.5px;
+letter-spacing: 0.03em;
+text-align: left;
+color: seagreen;
+margin: 33px 0 10px 0;
+}
+.Projects .containerprojects .text_Design{
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0.03em;
+    text-align: left;
+    width: 400px;     
+}
+@media screen  and (max-width:1307px){
+.Projects .containerprojects{
+flex-wrap: wrap;
+}
+    .Projects h1{
+font-size: 62px;
+margin-bottom: 22px;
+}
+.Projects h2{
+font-size: 27px;
+}
+}
+@media screen  and (max-width:875px){
+.Projects h1{
+margin-bottom: 20px;
+}
+.Projects h2{
+font-size: 25px;
+}
+
+}
+@media screen  and (max-width:800px){
+    .Projects{
+        margin: 45px 0;
+    }
+}
+@media screen  and (max-width:450px){
+    .Projects{
+        margin: 25px 0;
+    }
+}
+@media screen  and (max-width:425px){
+    .Projects .containerprojects{
+        padding: 0;
+        margin-top: 30px;
+        gap: 25px;
+    }
+    .Projects h1{
+        font-size: 34px;
+        margin-bottom: 4px;
+        }
+        .Projects h2{
+            font-size: 17px;
+            }
+            .Projects .containerprojects .cardimgproject1{
+                width: 260px;
+                height: 320px;
+                }
+                .Projects .containerprojects .cardimgproject1 .imgwp1{
+                    width: 160px;
+                height: 316px;
+                top: 0;
+                left: 60%;
+                }
+                .Projects .containerprojects .cardimgproject1 .imgwp2{
+                    width: 160px;
+                height: 229px;
+                top: 87px;
+                left: 40%;
+                }
+                .Projects .containerprojects .Web_Design{
+                font-size: 14px;
+                margin: 15px 0 0 0;
+                }
+                .Projects .containerprojects .text_Design{
+                    font-size: 15px;
+                    line-height: 25px;
+                    width: 250px;
+                }
+}
